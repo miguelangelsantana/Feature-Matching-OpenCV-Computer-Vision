@@ -109,7 +109,7 @@ Many of the tools in OpenCV and Computer Vision are still being developed with d
 Future projects will include similar themes within the context of video and how feature matching relates to non static images. 
 
 ### Further Information
-Please review the narrative of our analysis in [our jupyter notebook](./jupyter_notebook.ipynb) or review our [presentation](/powerpoint/powerpoint.pdf)
+Please review the narrative of our analysis in [our jupyter notebook.](./jupyter_notebook.ipynb)
 
 For any additional questions, please reach out via email at santana2.miguel@gmail.com, on [LinkedIn](https://www.linkedin.com/in/miguel-angel-santana-ii-mba-51467276/) or on [Twitter.](https://twitter.com/msantana_ds)
 
@@ -125,6 +125,5 @@ Additional analysis, notes and file sources can be found on Udemy's website.
 
 ├── README.md               <- The top-level README for reviewers of this project.
 ├── jupyter_notebook.ipynb     <- narrative documentation of analysis in jupyter notebook
-├── presentation.pdf        <- pdf version of project presentation
 
 ```
