@@ -16,18 +16,22 @@ The images are originally sourced from Udemy. The Udemy citation is available be
 The data includes two images: the first being an image of a cereal box and the second being an image of a cereal isle in a grocery store. 
 
 **Image 1: Object to Match**
+
 ![png](/images/reeses_puffs.png)
 
 
 **Image 1: Imported In Gray Scale**
+
 ![png](/images/reesesgray.png)
 
 
 **Image 2: Matching Features From Image 1 Onto Image 2**
+
 ![png](/images/many_cereals.png)
 
 
 **Image 2: Imported In Gray Scale**
+
 ![png](/images/cerealgray.png)
 
 
@@ -48,6 +52,7 @@ Process:
 
 
 **Brute-Force Detection | ORB Descriptors | Feature Matching**
+
 ![png](/images/BFD_ORB.png)
 
 
@@ -67,6 +72,7 @@ Process:
 
 
 **Brute-Force Detection | SIFT Descriptors & Ratio Test | Feature Matching**
+
 ![png](/images/BFM_SIFT.png)
 
 
@@ -83,6 +89,7 @@ Process:
 
 
 **FLANN based Feature Matching**
+
 ![png](/images/FLANN.png)
 
 
