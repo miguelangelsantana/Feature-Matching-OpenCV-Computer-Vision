@@ -27,7 +27,7 @@ The data includes two images: the first being an image of a cereal box and the s
 
 **Image 2: Matching Features From Image 1 Onto Image 2**
 
-![png](/images/many_cereals.png)
+![jpg](/images/many_cereals.jpg)
 
 
 **Image 2: Imported In Gray Scale**
