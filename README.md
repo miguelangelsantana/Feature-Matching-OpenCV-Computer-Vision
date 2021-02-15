@@ -17,15 +17,22 @@ The data includes two images: the first being an image of a cereal box and the s
 
 **Image 1: Object to Match**
 ![png](/images/reeses_puffs.png)
+
+
 **Image 1: Imported In Gray Scale**
 ![png](/images/reesesgray.png)
 
+
 **Image 2: Matching Features From Image 1 Onto Image 2**
 ![png](/images/many_cereals.png)
+
+
 **Image 2: Imported In Gray Scale**
 ![png](/images/cerealgray.png)
 
+
 Note: The image is in the lower left hand corner but it is important to note that the images are different sizes and do vary overall with image 1 illustrating "Family Size" on top of the box.
+
 
 # Forms of Feature Matching (3)
 ## 1) Brute Force Detection with ORB Descriptors
@@ -39,8 +46,10 @@ Process:
     * smaller distances = better matches
 * draw the top 25 matches
 
+
 **Brute-Force Detection | ORB Descriptors | Feature Matching**
 ![png](/images/BFD_ORB.png)
+
 
 Looks like Brute Force Detection with ORB Descriptors didn't do a very good job in this case. It's worth noting this type of detector struggles with matching features of different sizes. Next, we will try two other options for matching. 
 
@@ -56,8 +65,10 @@ Process:
 * apply a ratio test to narrow down best matches
 * draw top matches
 
+
 **Brute-Force Detection | SIFT Descriptors & Ratio Test | Feature Matching**
 ![png](/images/BFM_SIFT.png)
+
 
 ## 3) FLANN based Feature Matching
 #### FLANN | Fast Library for Approximate Nearest Neighbors
@@ -70,8 +81,10 @@ Process:
 * apply a ratio test to narrow down best matches
 * draw top matches
 
+
 **FLANN based Feature Matching**
 ![png](/images/FLANN.png)
+
 
 # Interpreting Results | Recommendations | Used Cases
 
