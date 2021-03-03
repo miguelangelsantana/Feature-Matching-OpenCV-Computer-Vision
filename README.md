@@ -119,7 +119,7 @@ Additional analysis, notes and file sources can be found on Udemy's website.
 
 * Course Name: Python for Computer vision with OpenCV and Deep Learning by Jose Portilla.
 
-##### Repository Structure:
+##### Repository Structure
 
 ```
 
